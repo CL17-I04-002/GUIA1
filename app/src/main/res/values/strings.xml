@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="guia">Mi primer guía</string>
+    <string name="calculadora">CALCULADORA</string>
+    <string name="login">FORMULARIO DE LOGIN</string>
+    <string name="datos">MIS DATOS</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+</resources>

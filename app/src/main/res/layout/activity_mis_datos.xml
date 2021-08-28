@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tx_datos"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textColorHint="@color/purple_500"
+        android:textSize="30dp"
+        android:hint="Mis Datos"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.20"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/tx_datos_alumno"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="Daniel Fernando Cuéllar Larín"
+        android:textSize="30dp"
+        android:textColorHint="@color/purple_700"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/tx_datos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.20"/>
+
+    <TextView
+        android:id="@+id/tx_codigo"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="CL17-I04-002"
+        android:textSize="30dp"
+        android:textColorHint="@color/purple_700"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/tx_datos_alumno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.20"/>
+
+    <TextView
+        android:id="@+id/tx_correlativo"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="Correlativo de asistencia"
+        android:textSize="30dp"
+        android:textColorHint="@color/purple_700"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/tx_codigo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.28"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
